@@ -78,4 +78,35 @@ When using Netcat (nc) to connect to a server running on port 443 (HTTPS), you m
 
 To communicate with servers running on HTTPS (port 443), tools like openssl s_client are typically used. openssl s_client facilitates SSL/TLS negotiation and ensures secure communication channels. It's designed to handle the encryption protocols necessary for HTTPS.
 
-For HTTP requests (port 80), Netcat (nc) works well. However, when dealing with HTTPS, openssl s_client is essential for establishing secure connections and avoiding "Bad Request" errors.
+However, the thing we are looking for is verion of running server which we find it through that response
+```bash
+Server: Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.0.30 mod_perl/2.0.12 Perl/v5.34.1
+```
+
+## Scripting
+it is so easy to use these built-in tool and make the task easy to solve. But I want see my hackers like a PRO. To Become PRO in hacking you should have good knowledge of scripting. This particulcar section is focused on building our own tool in BASH that will auotomate the boring stuff.
+```bash
+#!/bin/bash
+
+# Function to send HTTPS request using ncat and display headers
+send_https_request() {
+    local host="$1"
+    local port="$2"
+    local path="$3"
+    response=$(echo -e "GET /mutillidae/src/index.php HTTP/1.1\r\nHost: $host\r\nConnection: close\r\n\r\n" | openssl s_client -quiet -connect "$host":"$port")
+    echo "$response" | grep -E "HTTP/1.1|Date:|Server:|Vary:|Accept-Ranges:|Connection:|Content-Type:|Content-Language:|Expires:"
+}
+
+# Main script starts here
+
+host="127.0.0.1"      # Local IP address
+port="443"            # HTTPS port for Mutillidae
+path="/mutillidae/src/index.php?page=labs/lab-1.php"
+
+echo "Sending HTTPS request to https://$host:$port$path ..."
+
+# Send HTTPS request and display headers
+send_https_request "$host" "$port" "$path"
+
+exit 0
+```
