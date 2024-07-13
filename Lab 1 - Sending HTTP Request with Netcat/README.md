@@ -7,7 +7,7 @@
 ![Status: Active](https://img.shields.io/badge/Status-Active-success.svg)
 
 
-![Mutillidae Logo](miscellaneous/logo.jpeg)
+![Mutillidae Logo](../miscellaneous/logo.jpeg)
 
 ## Overview
 The objective of this lab is to learn how to send HTTP requests using Netcat (nc) and interpret the server's response headers to gather information about the web server running on a specified host.
