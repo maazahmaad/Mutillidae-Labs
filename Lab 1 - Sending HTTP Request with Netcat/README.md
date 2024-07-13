@@ -110,3 +110,27 @@ send_https_request "$host" "$port" "$path"
 
 exit 0
 ```
+Let's run this bash script and see it in action
+```
+kali@kali:~/Documents/Mutillidae-Labs/Lab 1 - Sending HTTP Request with Netcat$ bash script.sh            
+Sending HTTPS request to https://127.0.0.1:443/mutillidae/src/index.php?page=labs/lab-1.php ...
+Can't use SSL_get_servername
+depth=0 C = DE, ST = Berlin, L = Berlin, O = Apache Friends, CN = localhost
+verify error:num=18:self-signed certificate
+verify return:1
+depth=0 C = DE, ST = Berlin, L = Berlin, O = Apache Friends, CN = localhost
+verify error:num=10:certificate has expired
+notAfter=Sep 30 09:10:30 2010 GMT
+verify return:1
+depth=0 C = DE, ST = Berlin, L = Berlin, O = Apache Friends, CN = localhost
+notAfter=Sep 30 09:10:30 2010 GMT
+verify return:1
+HTTP/1.1 200 OK
+Date: Sat, 13 Jul 2024 20:29:09 GMT
+Server: Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.0.30 mod_perl/2.0.12 Perl/v5.34.1
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Connection: close
+Content-Type: text/html;charset=UTF-8
+```
+
+*Happy Hacking*
