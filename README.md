@@ -38,6 +38,10 @@ Contributions are welcome! Fork the repository, add your exercises, and submit a
 
 This repository is licensed under the MIT License. See the LICENSE file for more details.
 
----
+Feel free to reach out if you have any questions or suggestions!
+
+- [GitHub](https://github.com/maazahmaad)
+- [LinkedIn](https://linkedin.com/in/maazahmaad)
+- [Email](mailto:maazahmad8470@gmail.com)
 
 Join me in mastering web application security with Mutillidae Labs and Exercises!
