@@ -34,8 +34,6 @@ git clone https://github.com/maazahmaad/Mutillidae-Labs.git
 2. Navigate to specific exercise folders.
 3. Follow README.md files for detailed instructions.
 
-## Contribution
-
 ## Contributing
 
 We welcome contributions from the community! If you'd like to contribute, please follow these steps:
