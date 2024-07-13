@@ -26,13 +26,25 @@ The repository provides:
 
 ## Getting Started
 
+To get started, clone this repository to your local machine:
 1. Clone the repository.
+```bash
+git clone https://github.com/maazahmad/AdvanceSecureCoding.git
+```  
 2. Navigate to specific exercise folders.
 3. Follow README.md files for detailed instructions.
 
 ## Contribution
 
-Contributions are welcome! Fork the repository, add your exercises, and submit a pull request.
+## Contributing
+
+We welcome contributions from the community! If you'd like to contribute, please follow these steps:
+
+    Fork the repository
+    Create a new branch (git checkout -b feature/YourFeature)
+    Commit your changes (git commit -m 'Add some feature')
+    Push to the branch (git push origin feature/YourFeature)
+    Open a pull request
 
 ## License
 
