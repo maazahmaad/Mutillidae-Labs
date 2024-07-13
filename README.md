@@ -29,7 +29,7 @@ The repository provides:
 To get started, clone this repository to your local machine:
 1. Clone the repository.
 ```bash
-git clone https://github.com/maazahmad/AdvanceSecureCoding.git
+git clone https://github.com/maazahmaad/Mutillidae-Labs.git
 ```  
 2. Navigate to specific exercise folders.
 3. Follow README.md files for detailed instructions.
