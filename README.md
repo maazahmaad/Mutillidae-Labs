@@ -1,6 +1,6 @@
 # Mutillidae Labs and Exercises
 
-![Mutillidae Logo](mutillidae-logo.png)
+![Mutillidae Logo](miscellaneous/logo.jpeg)
 
 Welcome to the **Mutillidae Labs and Exercises** repository! This collection documents my daily journey through identifying, exploiting, and mitigating vulnerabilities in the Mutillidae vulnerable web application.
 
