@@ -32,3 +32,5 @@ First we will fire up our browser and go to particular lab link. Meanwhile we wi
 As we see, we have a lot of HTTP traffic being captured in Wireshark. We are primarily interesed in find user-agent. To do this we will click on first packet and open  Hyper Text Transfer Protocol layer in left corner. Right under left corner we have user-agent Mozilla, which is correct anaswer.
 
 ![Lab Image](img/Find%20User_agent.png)
+
+*Happy Hacking*
