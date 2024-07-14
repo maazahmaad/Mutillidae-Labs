@@ -1,4 +1,4 @@
-## Lab 1 - Capturing HTTP Packets with Wireshark
+## Lab 2 - Capturing HTTP Packets with Wireshark
 ![Advance Secure Coding](https://img.shields.io/badge/Cybersecurity-Advanced-blue.svg)
 ![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
